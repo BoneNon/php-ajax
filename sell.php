@@ -46,20 +46,13 @@
 <div class="container">
     <div class="jumbotron">
     <h1>Sell</h1>
-    <p>Bootstrap is the most popular HTML, CSS...</p>
     </div>
             
-
-
 <?php
 include_once 'include/dbh.inc.php';
 
 	$sql = "SELECT * FROM sell INNER JOIN book ON book.book_code=sell.book_code ";
-    $result = mysqli_query($conn,$sql);
-
-    echo "hello";
-
-    if(mysqli_num_rows($result)>0){
+    $result = mysqli_query($conn,$sql); 
 ?>
         <table class="table table-bordered">
         <thead>
@@ -75,6 +68,7 @@ include_once 'include/dbh.inc.php';
         </tr>
         </thead>
 <?php
+    if(mysqli_num_rows($result)>0){
         while($row = mysqli_fetch_array($result)){
 ?>
  <tbody>
@@ -91,19 +85,11 @@ include_once 'include/dbh.inc.php';
   </tbody>
 
 <?php
-       }
+       }}
 ?>            
       
   </table> 
 
-<?php
-        
-    }else{
-        echo"000";
-    }
-
-?>
-    
     
 
 

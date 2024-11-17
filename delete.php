@@ -9,10 +9,10 @@
 
         if ($sql) {
             echo "<script>alert('Deleted Successfully!');</script>";
-            echo "<script>window.location.href='book2.php'</script>";
+            echo "<script>window.location.href='book.php'</script>";
         }else {
             echo "<script>alert('Deleted fall!');</script>";
-            echo "<script>window.location.href='book2.php'</script>";
+            echo "<script>window.location.href='book.php'</script>";
         }
     }
 ?>

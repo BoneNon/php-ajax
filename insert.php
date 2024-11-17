@@ -14,7 +14,7 @@
 
         if ($sql) {
             echo "<script>alert('Insert Successfully!');</script>";
-            echo "<script>window.location.href='book2.php'</script>";
+            echo "<script>window.location.href='book.php'</script>";
         } else {
             echo "<script>alert('Insert fall!');</script>";
             echo "<script>window.location.href='insert.php'</script>";
@@ -54,24 +54,16 @@
       <li class="nav-item active">
         <a class="nav-link" href="book.php">Book</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
     </ul>
-    
-      
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    
   </div>
 </nav>
 
 <div class="container">
     <div class="jumbotron">
     <h1>Insert</h1>
-    <p>Bootstrap is the most popular HTML, CSS...</p>
     </div>
             
-    <a href="book2.php" class="btn btn-success">Go Back</a>
+    <a href="book.php" class="btn btn-success">Go Back</a>
     <br><br>
     
     <form action="" method="post">

@@ -31,21 +31,13 @@
       <li class="nav-item active">
         <a class="nav-link" href="book.php">Book</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    
-      
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    
+    </ul> 
   </div>
 </nav>
 
 <div class="container">
     <div class="jumbotron">
     <h1>Book</h1>
-    <p>Bootstrap is the most popular HTML, CSS...</p>
     </div>
             
     <a href="insert.php" class="btn btn-success">Add</a>
